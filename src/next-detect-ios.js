@@ -32,6 +32,7 @@
           var unformattedVersion = splitUserAgent[1].split(BLANK)[0];
           return unformattedVersion.split(UNDER).join(DOT);
         }
+        return null;
       }
     }
   });

@@ -1,6 +1,6 @@
 (function () {
 
-  var global = global || this || self || window;
+  var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
   var USER_AGENT = global.navigator.userAgent;
   var IPHONE_RE = /iPhone/i;

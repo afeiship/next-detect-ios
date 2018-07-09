@@ -2,7 +2,17 @@
 > Detect if iOS device &amp; get iOS version.
 
 
-## resources:
+## usage:
+```js
+import NxDetectIos from 'next-detext-os';
+
+// is:
+NxDetectOs.isIos();
+
+// version:
+NxDetectOs.version();
+
+```
 
 ## todos:
 - [ ] unit test case
